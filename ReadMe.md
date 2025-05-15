@@ -8,6 +8,7 @@ This project is a real-time garbage classification system that uses deep learnin
 - [Technologies Used](#️technologies-used)
 - [Garbage Classes](#-garbage-classes)
 - [How to Run the Project](#️how-to-run-the-project)
+- [Output Screenshots](#-output-screenshots)
 - [Future Improvements](#-future-improvements)
 ## Features
 
@@ -68,9 +69,14 @@ The trained model will be saved as lstm_model.h5
 5. Run the Web App
 python app.py
 Then open your browser and go to:
+
 📍 http://127.0.0.1:5000
 ```
+## Output Screenshots
 
+![GLASS 0 82](https://github.com/user-attachments/assets/56cf1e4e-4108-4cbc-9e37-ba84fc5ce2b1)
+![Output](https://github.com/user-attachments/assets/2dda70a3-726d-4518-a4bf-30872f6fb75f)
+![metal](https://github.com/user-attachments/assets/a58cec47-b9ba-4c17-a9d8-65794e4110ec)
 
 ## Future Improvements
 
