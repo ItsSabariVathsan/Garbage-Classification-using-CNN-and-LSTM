@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Garbage Classification</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>GARBAGE CLASSIFICATION</h1>
+    <h2>Using CNN and LSTM Hybrid model</h2>
+    
+    <div class="video-container">
+      <img id="video-stream" src="{{ url_for('video_feed') }}" alt="Video Stream">
+    </div>
+    
+    <div class="button-group">
+      <button id="start-btn" onclick="startVideo()">Start Classification</button>
+      <button id="stop-btn" onclick="stopVideo()">Stop Classification</button>
+    </div>
+  </div>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
