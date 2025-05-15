@@ -52,9 +52,20 @@ cd garbage-classification
 
 2. Install Dependencies
 pip install -r requirements.txt
-✅ Make sure your webcam is enabled and accessible.
+Make sure your webcam is enabled and accessible.
 
-3. Run the Web App
+3. Download the Dataset from Kaggle
+This project uses the Garbage Classification Dataset from Kaggle.
+Download it and unzip the file in the root location.
+
+4. Train the Model (CNN)
+Use the provided script to train the CNN and LSTM model:
+python train_cnn.py
+The trained model will be saved as cnn_model.h5
+python train_lstm.py
+The trained model will be saved as lstm_model.h5
+
+5. Run the Web App
 python app.py
 Then open your browser and go to:
 📍 http://127.0.0.1:5000
